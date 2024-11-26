@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContaCerto - Quiz de Educação Financeira</title>
+    <link href="/conta/output.css" rel="stylesheet">
+    <link rel="icon" href="/conta/assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="flex flex-col min-h-screen bg-gray-100">
+    <!-- Header -->
+    <header class="bg-gray-900 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center">
+                    <img src="/conta/assets/logo.png" alt="ContaCerto" class="h-10">
+                    <span class="ml-2 text-xl font-semibold text-white">ContaCerto</span>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <span class="text-white">@usuario</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <div class="flex-grow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex gap-6">
+                <!-- Sidebar -->
+                <div class="w-48 flex-shrink-0">
+                    <div class="mb-6">
+                        <div class="flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-lg">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white">
+                                <img src="/conta/assets/salary.png" alt="salario" class="p-2">
+                            </div>
+                            <span class="font-medium">Unidade 1</span>
+                        </div>
+                    </div>
+                    <nav class="space-y-1">
+                        <a href="/conta/unidades.html"
+                            class="hover:bg-gray-100 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg>
+                            Home
+                        </a>
+                        <a href="#" class="hover:bg-gray-100 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                            Aprender
+                        </a>
+                        <a href="#" class="hover:bg-gray-100 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                            </svg>
+                            Praticar
+                        </a>
+                        <a href="#" class="hover:bg-gray-100 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                            </svg>
+                            Perfil
+                        </a>
+                        <a href="#" class="hover:bg-gray-100 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            Configurações
+                        </a>
+                    </nav>
+                </div>
+
+                <!-- Main Content -->
+                <div class="flex-1 bg-white rounded-lg shadow-sm p-8">
+                    <h2 class="text-4xl font-bold mb-2 text-center pb-2">Vamos iniciar as atividades!</h2>
+                    <hr class="border-gray-100 my-4">
+                    <p class="py-4 text-center">Vem colocar em prática o que você aprendeu?</p>
+                    <hr class="border-gray-100 my-4">
+                    <p class="py-5 text-lg text-left pt-8">Abaixo terá um quiz com 5 perguntas para você responder.</p>
+
+                    <div id="quiz-container">
+                        <!-- PERGUNTA 1 -->
+                        <div
+                            class="question mt-8 max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden shadow-lg p-6">
+                            <div class="relative flex items-center justify-center mb-4">
+                                <img id="storyImage" src="/conta/unidades/unidade1/quiz/tirinha-turma-da-monica.jpg"
+                                    alt="tirinha" class="w-full h-auto rounded-lg">
+                            </div>
+                            <p class="text-lg text-center mb-4">De acordo com a tirinha, o que a personagem da história
+                                fez?</p>
+                            <div class="space-y-2">
+                                <button resposta-correta
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Economizou</button>
+                                <button
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Gastou
+                                    toda sua poupança dos últimos anos</button>
+                                <button
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Mentiu
+                                    para os seus pais</button>
+                            </div>
+                        </div>
+
+                        <hr class="border-gray-100 my-8">
+
+                        <!-- PERGUNTA 2 -->
+                        <div
+                            class="question mt-8 max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden shadow-lg p-6">
+                            <p class="text-lg text-center mb-4">Qual é o tipo de moeda utilizada no Brasil?</p>
+                            <div class="space-y-2">
+                                <button resposta-correta
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Real</button>
+                                <button
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Euro</button>
+                                <button
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Dólar</button>
+                            </div>
+                        </div>
+
+                        <hr class="border-gray-100 my-8">
+
+                        <!-- PERGUNTA 3 -->
+                        <div
+                            class="question mt-8 max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden shadow-lg p-6">
+                            <div class="w-full max-w-xl mb-4">
+                                <iframe class="w-full h-96 shadow-xl rounded-2xl"
+                                    src="https://www.youtube.com/embed/CB5zuxQl5ro" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <p class="text-lg text-center mb-4">De acordo com o vídeo, o que é educação financeira?</p>
+                            <div class="space-y-2">
+                                <button
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Aprender
+                                    a ganhar dinheiro</button>
+                                <button resposta-correta
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Saber
+                                    administrar o dinheiro</button>
+                                <button
+                                    class="w-full py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-100">Gastar
+                                    todo o dinheiro que ganha</button>
+                            </div>
+                        </div>
+
+                        <hr class="border-gray-100 my-8">
+
+                        <!-- PERGUNTA 4 -->
+                        <div
+                            class="question mt-8 max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden shadow-lg p-6">
+                            <p class="text-lg text-center mb-4">Organize os itens do maior preço para o menor preço</p>
+                            <div id="sortable-items" class="space-y-2">
+                                <div class="bg-white p-2 rounded flex items-center justify-between cursor-move"
+                                    data-price="26.00">
+                                    <img src="/conta/unidades/unidade1/quiz/bola.png" alt="bola-img"
+                                        class="w-12 h-12 object-contain">
+                                    <p>R$: 26.00</p>
+                                </div>
+                                <div class="bg-white p-2 rounded flex items-center justify-between cursor-move"
+                                    data-price="72.00">
+                                    <img src="/conta/unidades/unidade1/quiz/raquete.png" alt="tenis-img"
+                                        class="w-12 h-12 object-contain">
+                                    <p>R$: 72.00</p>
+                                </div>
+                                <div class="bg-white p-2 rounded flex items-center justify-between cursor-move"
+                                    data-price="105.00">
+                                    <img src="/conta/unidades/unidade1/quiz/vestido.png" alt="vestido-img"
+                                        class="w-12 h-12 object-contain">
+                                    <p>R$: 105.00</p>
+                                </div>
+                                <div class="bg-white p-2 rounded flex items-center justify-between cursor-move"
+                                    data-price="99.99">
+                                    <img src="/conta/unidades/unidade1/quiz/barco.png" alt="barquinho-img"
+                                        class="w-12 h-12 object-contain">
+                                    <p>R$: 99.99</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr class="border-gray-100 my-8">
+
+                        <!-- PERGUNTA 5 -->
+                        <div class="question mt-8 max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden shadow-lg p-6">
+                            <p class="text-lg text-center mb-4">Na história interativa, qual é o brinquedo que o menino
+                                queria comprar?</p>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                <button resposta-correta
+                                    class="flex flex-col items-center p-4 bg-white rounded-lg shadow hover:bg-gray-50 transition duration-100">
+                                    <img src="/conta/unidades/unidade1/quiz/bola.png" alt="bola-img" class="w-24 h-24 object-contain mb-2">
+                                    <p>R$: 26.00</p>
+                                </button>
+                                <button
+                                    class="flex flex-col items-center p-4 bg-white rounded-lg shadow hover:bg-gray-50 transition duration-100">
+                                    <img src="/conta/unidades/unidade1/quiz/raquete.png" alt="tenis-img" class="w-24 h-24 object-contain mb-2">
+                                    <p>R$: 50.00</p>
+                                </button>
+                                <button
+                                    class="flex flex-col items-center p-4 bg-white rounded-lg shadow hover:bg-gray-50 transition duration-100">
+                                    <img src="/conta/unidades/unidade1/quiz/barco.png" alt="barquinho-img" class="w-24 h-24 object-contain mb-2">
+                                    <p>R$: 59.00</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 text-center">
+                        <button id="submit-quiz"
+                            class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition duration-100">
+                            Enviar Respostas
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <p class="text-white text-lg mb-2">Nossa missão é oferecer uma educação gratuita e de alta qualidade para
+                qualquer pessoa, em qualquer lugar.</p>
+            <p class="text-gray-400">O ContaCerto é uma organização sem fins lucrativos.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script src="/conta/scripts/quiz.js"></script>
+</body>
+
+</html>

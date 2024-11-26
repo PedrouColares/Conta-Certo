@@ -250,6 +250,8 @@ const body = document.getElementById('body');
 
 const storyImage = document.getElementById('storyImage');
 const storyText = document.getElementById('storyText');
+
+const quizBtn = document.getElementById('quizBtn');
 const nextBtn = document.getElementById('nextBtn');
 const interactionArea = document.getElementById('interactionArea');
 
@@ -308,11 +310,15 @@ function updateSlide() {
     if (slide.final === 1) {
         console.log('usuario venceu');
         currentSlide++;
+        nextBtn.style.display = 'none';
+        quizBtn.style.display = 'block';
         Finished();
     }
 
     else if (slide.final === 2) {
         console.log('usuario perdeu');
+        nextBtn.style.display = 'none';
+        quizBtn.style.display = 'block';
     }
 
     if (bolaComprada) {
