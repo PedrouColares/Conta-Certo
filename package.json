@@ -2,7 +2,7 @@
   "name": "conta-certo",
   "version": "1.0.0",
   "description": "",
-  "main": "./conta/index.html",
+  "main": "./index.html",
   "scripts": {
     "start": "tailwindcss build ./conta/input.css -o ./conta/output.css --watch"
   },
