@@ -2,7 +2,7 @@
   "name": "meu-projeto",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "tailwindcss build ./conta/input.css -o ./conta/output.css --watch"
   },
