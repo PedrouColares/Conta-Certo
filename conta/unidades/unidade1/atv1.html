@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-full">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContaCerto - O que é Educação Financeira?</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="icon" href="/src/assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="/src/scripts/confetti.js"></script>
+</head>
+
+<body class="flex flex-col min-h-screen bg-gray-100">
+    <!-- Header -->
+    <header class="bg-gray-900 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center">
+                    <img src="/src/assets/logo.png" alt="ContaCerto" class="h-10">
+                    <span class="ml-2 text-xl font-semibold text-white">ContaCerto</span>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <span class="text-white">@usuario</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <div class="flex-grow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex gap-6">
+                <!-- Sidebar -->
+                <div class="w-48 flex-shrink-0">
+                    <div class="mb-6">
+                        <div class="flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-lg">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white">
+                                <img src="/src/assets/salary.png" alt="salario" class="p-2">
+                            </div>
+                            <span class="font-medium">Unidade 1</span>
+                        </div>
+                    </div>
+                    <nav class="space-y-1">
+                        <a href="/src/unidades.html"
+                            class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg>
+                            Home
+                        </a>
+                        <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                            Aprender
+                        </a>
+                        <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                            </svg>
+                            Praticar
+                        </a>
+                        <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                            </svg>
+                            Perfil
+                        </a>
+                        <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                            <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            Configurações
+                        </a>
+                    </nav>
+                </div>
+
+                <!-- Main Content -->
+                <div class="flex-1 bg-white rounded-lg shadow-sm p-8">
+                    <h2 class="text-4xl font-bold mb-2 text-center pb-2">Vamos iniciar as atividades!</h2>
+                    <hr class="border-x-gray-300">
+                    <p class="py-4 text-center">Vem colocar em prática o que você aprendeu?</p>
+                    <hr class="border-gray-300">
+                    <p class="py-5 text-lg text-left pt-8">Abaixo terá uma história interativa sobre Educação
+                        Financeira.</p>
+
+                    <!-- Story Container -->
+                    <div class="mt-8 max-w-2xl mx-auto bg-gray-100 rounded-lg overflow-hidden shadow-lg">
+                        <div class="relative">
+                            <img id="storyImage" src='/src/unidades/unidade1/atividades/sala1.png'
+                                alt="Cena da história" class="w-full h-auto">
+                            <div id="storyText"
+                                class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 text-center text-2xl">
+                                Eu queria ter mais brinquedos para brincar.
+                            </div>
+
+                            <div id="opcoes-escolha" class="hidden items-center">
+                                <button>
+                                    <div id="opcao1" class="absolute h-16 w-96 rounded-md bottom-40 left-36 right-0 hover:bg-opacity-75 bg-blue-900 bg-opacity-50 text-white p-4 text-center text-2xl">
+                                        opcao1
+                                    </div>
+                                </button>
+
+                                <button>
+                                    <div id="opcao2" class="absolute h-16 w-96 rounded-md bottom-20 left-36 right-0 hover:bg-opacity-75 bg-blue-900 bg-opacity-50 text-white p-4 text-center text-2xl">
+                                        opcao2
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="interactionArea" class="relative">
+
+                        </div>
+
+                        <div class="flex justify-between p-4 bg-white">
+                            <div class="bg-blue-900 rounded-lg w-36 flex items-center px-1 gap-2 text-white font-mono">
+                                <img src="/src/assets/coin.png" alt="moeda-img" class="h-10">
+                                <p">R$ <span id="dinheiro">00.00</span></p>
+                            </div>
+
+                            <button id="nextBtn"
+                                class="px-4 py-2 bg-blue-500 text-white rounded-md disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors duration-200">
+                                Próximo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <p class="text-white text-lg mb-2">Nossa missão é oferecer uma educação gratuita e de alta qualidade para
+                qualquer pessoa, em qualquer lugar.</p>
+            <p class="text-gray-400">O ContaCerto é uma organização sem fins lucrativos.</p>
+        </div>
+    </footer>
+
+    <script src="/src/scripts/atividade1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContaCerto - O que é Educação Financeira?</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="icon" href="/src/assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+    <!-- Header -->
+    <header class="bg-gray-900 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center">
+                    <img src="/src/assets/logo.png" alt="ContaCerto" class="h-10">
+                    <span class="ml-2 text-xl font-semibold text-white">ContaCerto</span>
+                </div>
+            </div>
+            <div class="flex items-center">
+                <span class="text-white">@usuario</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="flex gap-6">
+            <!-- Sidebar -->
+            <div class="w-48 flex-shrink-0">
+                <div class="mb-6">
+                    <div class="flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-lg">
+                        <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white">
+                            <img src="/src/assets/salary.png" alt="salario" class="p-2">
+                        </div>
+                        <span class="font-medium">Unidade 1</span>
+                    </div>
+                </div>
+                <nav class="space-y-1">
+                    <a href="/src/unidades.html"
+                        class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                        <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                        Home
+                    </a>
+                    <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                        <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        Aprender
+                    </a>
+                    <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                        <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                        </svg>
+                        Praticar
+                    </a>
+                    <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                        <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                        Perfil
+                    </a>
+                    <a href="#" class="hover:bg-gray-300 flex items-center px-4 py-2 text-gray-700 rounded-md">
+                        <svg class="mr-3 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        Configurações
+                    </a>
+                </nav>
+            </div>
+
+            <!-- Main Content -->
+            <div class="flex-1 bg-white rounded-lg shadow-sm p-8">
+                <h1 class="text-4xl font-bold mb-2">Prepare-se para iniciar os estudos</h1>
+                <p class="text-gray-600 mb-8">Para que você se sinta mais seguro, vamos entender o que é a Educação
+                    Financeira.</p>
+
+                <div class="mb-12">
+                    <img src="/src/assets/o-que-e-educacao-financeira.png" alt="O que é educação financeira?"
+                        class="w-full max-w-2xl mx-auto mb-8">
+                </div>
+
+                <div class="space-y-12">
+                    <!-- O que é Educação Financeira? -->
+                    <div class="space-y-4">
+                        <h2 class="text-xl font-semibold">O que é Educação Financeira?</h2>
+                        <p class="text-gray-600">
+                            A Educação Financeira é um processo de aprendizado contínuo e organizado que permite
+                            desenvolver habilidades para tomar decisões financeiras conscientes. Esse conhecimento é
+                            fundamental para gerenciar melhor seus recursos financeiros, fazer escolhas mais
+                            inteligentes e garantir uma vida financeira mais equilibrada. Suas implicações ultrapassam
+                            na vida pessoal e profissional de cada indivíduo.
+                        </p>
+                    </div>
+
+                    <!-- Importância da Educação Financeira -->
+                    <div class="space-y-4">
+                        <h2 class="text-xl font-semibold">Importância da Educação Financeira</h2>
+                        <div class="flex gap-8 items-start">
+                            <div class="flex-1">
+                                <ul class="space-y-2 text-gray-600">
+                                    <li>• Tomar Decisões Informadas: Compreender os mecanismos do mercado financeiro.
+                                    </li>
+                                    <li>• Melhor Gestão dos Recursos: Maximizar o uso do dinheiro disponível.</li>
+                                    <li>• Planejamento Financeiro: Estabelecer metas e objetivos.</li>
+                                    <li>• Redução de Riscos: Identificar e proteger-se contra riscos financeiros.</li>
+                                    <li>• Qualidade de Vida: Alcançar estabilidade financeira e bem-estar.</li>
+                                </ul>
+                            </div>
+                            <img src="/src/assets/importancia-educacao-financeira.png"
+                                alt="Importância da Educação Financeira" class="w-64">
+                        </div>
+                    </div>
+
+                    <!-- Componentes da Educação Financeira -->
+                    <div class="space-y-4">
+                        <h2 class="text-xl font-semibold">Componentes da Educação Financeira</h2>
+                        <div class="flex gap-8 items-start">
+                            <img src="/src/assets/componentes-educacao-financeira.png"
+                                alt="Componentes da Educação Financeira" class="w-64">
+                            <div class="flex-1 text-gray-600">
+                                <p>A Educação Financeira engloba diversos componentes essenciais:</p>
+                                <ul class="mt-4 space-y-2">
+                                    <li>• Conhecimento básico sobre finanças e economia</li>
+                                    <li>• Habilidades matemáticas e de cálculo</li>
+                                    <li>• Compreensão de produtos e serviços financeiros</li>
+                                    <li>• Capacidade de planejamento e organização</li>
+                                    <li>• Desenvolvimento de hábitos financeiros saudáveis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Educação Financeira no Cotidiano -->
+                    <div class="space-y-4">
+                        <h2 class="text-xl font-semibold">Educação Financeira no Cotidiano</h2>
+                        <div class="flex gap-8 items-start">
+                            <div class="flex-1 text-gray-600">
+                                <p>A Educação Financeira se aplica em diversas situações do dia a dia:</p>
+                                <ul class="mt-4 space-y-2">
+                                    <li>• Orçamento pessoal e familiar</li>
+                                    <li>• Decisões de consumo</li>
+                                    <li>• Uso consciente do cartão de crédito</li>
+                                    <li>• Investimentos e poupança</li>
+                                    <li>• Planejamento para objetivos futuros</li>
+                                </ul>
+                            </div>
+                            <img src="/src/assets/educacao-financeira-cotidiano.png"
+                                alt="Educação Financeira no Cotidiano" class="w-64">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center justify-center min-h-screen space-y-4">
+                    <h3 class="text-center font-bold text-blue-950 md:text-4xl">Assista o vídeo abaixo.</h3>
+                    <div class="w-full max-w-xl"> <iframe class="w-full h-96 shadow-xl rounded-2xl"
+                            src="https://www.youtube.com/embed/CB5zuxQl5ro" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe> 
+                    </div>
+                </div>
+
+                <div class="mt-12 flex justify-end">
+                    <a href="/src/unidades/unidade1/atv1.html">
+                        <button
+                            class="flex justify-center items-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                            Avançar
+                            <img src="/src/assets/seta-branca.png" alt="seta-branca-img" class="pl-4 h-7 pt-1">
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <p class="text-white text-lg mb-2">Nossa missão é oferecer uma educação gratuita e de alta qualidade para
+                qualquer pessoa, em qualquer lugar.</p>
+            <p class="text-gray-400">O ContaCerto é uma organização sem fins lucrativos.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
