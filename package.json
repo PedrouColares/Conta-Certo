@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tailwindcss build src/input.css -o src/output.css --watch"
+    "start": "tailwindcss build ./conta/input.css -o ./conta/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.15"
