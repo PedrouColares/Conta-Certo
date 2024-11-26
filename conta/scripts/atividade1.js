@@ -1,6 +1,6 @@
 const storySlides = [
     {
-        image: '/src/unidades/unidade1/atividades/sala1.png',
+        image: '/conta/unidades/unidade1/atividades/sala1.png',
         text: 'Eu queria ter mais brinquedos para brincar.',
         nextBtnVisible: true
     },
@@ -11,7 +11,7 @@ const storySlides = [
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/sala2.png',
+        image: '/conta/unidades/unidade1/atividades/sala2.png',
         text: 'Vá até a cozinha para encontrar sua mãe.',
         nextBtnVisible: false,
         clickableAreas: [
@@ -23,55 +23,55 @@ const storySlides = [
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha1.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha1.png',
         text: 'Converse com a sua mãe.',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha2.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha2.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha3.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha3.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha4.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha4.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha5.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha5.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha6.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha6.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha7.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha7.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cozinha8.png',
+        image: '/conta/unidades/unidade1/atividades/cozinha8.png',
         nextBtnVisible: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/parque1.png',
+        image: '/conta/unidades/unidade1/atividades/parque1.png',
         text: 'Algumas semanas depois...',
         nextBtnVisible: true,
         dinheiro: 15.00
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/parque2.png',
+        image: '/conta/unidades/unidade1/atividades/parque2.png',
         nextBtnVisible: false,
         clickableAreas: [
             {
@@ -82,159 +82,159 @@ const storySlides = [
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/parque3.png',
+        image: '/conta/unidades/unidade1/atividades/parque3.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/parque4.png',
+        image: '/conta/unidades/unidade1/atividades/parque4.png',
         nextBtnVisible: false,
         opcoes: { 1: 'Comprar sorvete.', 2: 'Não comprar sorvete' }
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/parque6.png',
+        image: '/conta/unidades/unidade1/atividades/parque6.png',
         text: 'Você gastou R$10 das suas economias.',
         nextBtnVisible: true,
         dinheiro: -10.00
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/parque5.png',
+        image: '/conta/unidades/unidade1/atividades/parque5.png',
         text: 'Você evitou gastar R$15 das suas economias.',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade1.png',
+        image: '/conta/unidades/unidade1/atividades/cidade1.png',
         text: 'Enquanto você estava dando uma volta na cidade, passou por uma Loja de Milkshake',
         dinheiro: 15.00,
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade2.png',
+        image: '/conta/unidades/unidade1/atividades/cidade2.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade3.png',
+        image: '/conta/unidades/unidade1/atividades/cidade3.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade4.png',
+        image: '/conta/unidades/unidade1/atividades/cidade4.png',
         nextBtnVisible: false,
         opcoes: { 1: 'Comprar Milkshake', 2: 'Não comprar Milkshake' }
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade6.png',
+        image: '/conta/unidades/unidade1/atividades/cidade6.png',
         text: 'Você gastou R$16 das suas economias.',
         dinheiro: -16.00,
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade5.png',
+        image: '/conta/unidades/unidade1/atividades/cidade5.png',
         text: 'Você evitou gastar R$16 das suas economias.',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/cidade7.png',
+        image: '/conta/unidades/unidade1/atividades/cidade7.png',
         text: ' ',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao1.png',
+        image: '/conta/unidades/unidade1/atividades/diversao1.png',
         text: 'Enquanto você estava dando uma volta no parque, você passou por alguns brinquedos.',
         nextBtnVisible: true,
         dinheiro: 15.00
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao2.png',
+        image: '/conta/unidades/unidade1/atividades/diversao2.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao3.png',
+        image: '/conta/unidades/unidade1/atividades/diversao3.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao4.png',
+        image: '/conta/unidades/unidade1/atividades/diversao4.png',
         opcoes: { 1: 'Comprar bilhete.', 2: 'Não comprar bilhete.' }
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao5.png',
+        image: '/conta/unidades/unidade1/atividades/diversao5.png',
         text: 'Você gastou R$10 de suas economias.',
         nextBtnVisible: true,
         dinheiro: -10.00
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao6.png',
+        image: '/conta/unidades/unidade1/atividades/diversao6.png',
         text: 'Você evitou gastar R$10 das suas economias.',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/diversao7.png',
+        image: '/conta/unidades/unidade1/atividades/diversao7.png',
         text: ' ',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja1.png',
+        image: '/conta/unidades/unidade1/atividades/loja1.png',
         text: 'Chegou o grande dia de comprar a sua bola.',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja2.png',
+        image: '/conta/unidades/unidade1/atividades/loja2.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja3.png',
+        image: '/conta/unidades/unidade1/atividades/loja3.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja4.png',
+        image: '/conta/unidades/unidade1/atividades/loja4.png',
         bola: true,
         nextBtnVisible: true,
         dinheiro: -26.00
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja5.png',
+        image: '/conta/unidades/unidade1/atividades/loja5.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja6.png',
+        image: '/conta/unidades/unidade1/atividades/loja6.png',
         nextBtnVisible: true,
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/loja7.png',
+        image: '/conta/unidades/unidade1/atividades/loja7.png',
         nextBtnVisible: true,
         semiFinal: true
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/final1-1.png',
+        image: '/conta/unidades/unidade1/atividades/final1-1.png',
         text: 'Parabéns, você conseguiu economizar e comprar a bola.',
         final: 1
     },
 
     {
-        image: '/src/unidades/unidade1/atividades/final1-2.png',
+        image: '/conta/unidades/unidade1/atividades/final1-2.png',
         text: 'Infelizmente, você não conseguiu economizar e comprar a bola.',
         final: 2
     },
