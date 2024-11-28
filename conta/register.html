@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -15,44 +15,46 @@
             <h1 class="text-2xl font-semibold text-gray-900">Bem vindo ao ContaCerto</h1>
         </div>
 
-        <form class="space-y-6">
+        <form id="form" class="space-y-6">
             <div class="space-y-4">
                 <div>
                     <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-                    <input type="email" id="email" required
+                    <input type="email" id="email" name="email"
                         class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    <span class="error-message hidden text-red-500 text-sm"></span>
                 </div>
 
                 <div>
                     <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
-                    <input type="text" id="username" required
+                    <input type="text" id="username" name="username"
                         class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    <span class="error-message hidden text-red-500 text-sm"></span>
                 </div>
 
                 <div>
                     <div class="flex justify-between">
                         <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
-                        <span class="text-sm text-gray-500">Ocultar</span>
                     </div>
-                    <input type="password" id="password" required
+                    <input type="password" id="password" name="password"
                         class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    <span class="error-message hidden text-red-500 text-sm"></span>
 
                     <ul class="mt-2 space-y-1 text-sm text-gray-500">
                         <li class="flex items-center gap-2">
-                            <span class="w-1 h-1 bg-gray-500 rounded-full"></span>
-                            Use 8 ou mais caracteres
+                            <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+                            <span class="password-requirement">Use 8 ou mais caracteres</span>
                         </li>
                         <li class="flex items-center gap-2">
-                            <span class="w-1 h-1 bg-gray-500 rounded-full"></span>
-                            Um caractere maiúsculo
+                            <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+                            <span class="password-requirement">Um caractere maiúsculo</span>
                         </li>
                         <li class="flex items-center gap-2">
-                            <span class="w-1 h-1 bg-gray-500 rounded-full"></span>
-                            Um caractere minúsculo
+                            <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+                            <span class="password-requirement">Um caractere minúsculo</span>
                         </li>
                         <li class="flex items-center gap-2">
-                            <span class="w-1 h-1 bg-gray-500 rounded-full"></span>
-                            Um número
+                            <span class="w-2 h-2 bg-gray-500 rounded-full"></span>
+                            <span class="password-requirement">Um número</span>
                         </li>
                     </ul>
                 </div>
@@ -65,8 +67,8 @@
                     <a href="#" class="text-blue-600 hover:underline">Política de privacidade</a>.
                 </p>
 
-                <button type="submit"
-                    class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gray-400 hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
+                <button type="submit" id="submitButton"
+                    class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gray-400 transition-colors duration-200 ease-in-out">
                     Crie uma conta
                 </button>
 
@@ -77,6 +79,8 @@
             </div>
         </form>
     </main>
+
+    <script src="scripts/form.js"></script>
 </body>
 
 </html>
